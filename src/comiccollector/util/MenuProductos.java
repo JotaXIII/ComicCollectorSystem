@@ -157,7 +157,7 @@ public class MenuProductos {
             System.out.print(mensaje);
             dato = scanner.nextLine().trim();
             if (!permiteVacio && dato.isEmpty()) {
-                System.out.println("[ERROR] Este campo no puede estar vacío.");
+                System.out.println("Este campo no puede estar vacío.");
             }
         } while (!permiteVacio && dato.isEmpty());
         return dato;
